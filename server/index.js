@@ -7,7 +7,7 @@ const server=http.createServer(app)
 
 const port=process.env.PORT || 3000;
 server.listen(port,(req,res)=>{
-    console.log("server running in 3001")
-    res.send(process.env.PORT)
+    console.log(port)
+  
 })
 
